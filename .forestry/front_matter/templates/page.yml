@@ -12,8 +12,8 @@ fields:
     label: Content Image
     description: The image displayed in the content section of the page
   - type: field_group
-    name: home_spotlight
-    label: Home Spotlight
+    name: home_spotlights
+    label: Home Spotlights
     fields:
       - type: boolean
         name: enabled
