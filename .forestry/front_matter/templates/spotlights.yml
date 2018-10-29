@@ -1,0 +1,41 @@
+---
+label: Spotlights Section
+hide_body: true
+is_partial: true
+display_field: identifier
+fields:
+  - type: text
+    name: section_id
+    label: Section ID
+    default: one
+    config:
+      required: true
+  - type: select
+    name: background_style
+    label: Background Style
+    description: The color scheme used for the section
+    default: style2
+    config:
+      required: true
+      source:
+        type: custom
+      options:
+        - style1
+        - style2
+        - style3
+        - style4
+  - type: text
+    name: identifier
+    label: Identifier
+    description: >-
+      The name of the section (not displayed on the page but used to identify
+      the section)
+    default: spotlights
+    config:
+      required: true
+  - type: text
+    name: component
+    hidden: true
+    default: spotlights.html
+    config:
+      required: true
