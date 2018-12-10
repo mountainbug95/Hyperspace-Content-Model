@@ -35,6 +35,7 @@ fields:
       required: true
   - type: text
     name: component
+    label: Section Component
     hidden: true
     default: spotlights.html
     config:
