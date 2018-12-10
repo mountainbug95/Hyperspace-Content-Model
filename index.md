@@ -24,12 +24,12 @@ sections:
         is_primary: false
     identifier: intro
     component: intro.html
-    widget: intro
+    template: intro
   - section_id: one
     background_style: style2
     identifier: spotlights
     component: spotlights.html
-    widget: spotlights
+    template: spotlights
   - title: What we do
     subtitle: >-
       Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis
@@ -76,7 +76,7 @@ sections:
         is_primary: false
     identifier: features
     component: features.html
-    widget: features
+    template: features
   - title: Get in touch
     text: >-
       Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis
@@ -116,7 +116,7 @@ sections:
           url: '#'
     identifier: contact
     component: contact.html
-    widget: contact
+    template: contact
 menus:
   main:
     title: Home

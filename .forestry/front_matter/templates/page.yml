@@ -45,7 +45,7 @@ fields:
             label: Image Data Position
             description: >-
               Controls the place of the image in its container (bottom left, top
-              right, center, etc.)
+              right, center center, etc.)
             default: top center
           - type: text
             name: url
