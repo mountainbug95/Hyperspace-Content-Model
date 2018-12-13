@@ -2,8 +2,17 @@
 label: Spotlights Section
 hide_body: true
 is_partial: true
-display_field: identifier
+display_field: title
 fields:
+  - type: text
+    name: title
+    label: Section Title
+    description: >-
+      The bold text displayed at the top of the section (Also used by the CMS,
+      even if no title is displayed in the section)
+    default: Spotlights Section
+    config:
+      required: true
   - type: text
     name: section_id
     label: Section ID
@@ -24,15 +33,6 @@ fields:
         - style2
         - style3
         - style4
-  - type: text
-    name: identifier
-    label: Identifier
-    description: >-
-      The name of the section (not displayed on the page but used to identify
-      the section)
-    default: spotlights
-    config:
-      required: true
   - type: text
     name: component
     label: Section Component
