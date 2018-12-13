@@ -107,7 +107,11 @@ collections:
                     widget: string
                     required: true
                     label: Section Title
-                    hint: The bold text displayed at the top of the section
+                    default: Intro Section
+                    hint: >-
+                      The bold text displayed at the top of the section (Also
+                      used by the CMS, even if no title is displayed in the
+                      section)
                   - name: subtitle
                     widget: markdown
                     required: false
@@ -157,14 +161,6 @@ collections:
                         label: Is Primary
                         default: false
                         hint: Gives the button a primary color scheme
-                  - name: identifier
-                    widget: string
-                    required: true
-                    label: Identifier
-                    default: intro
-                    hint: >-
-                      The name of the section (not displayed on the page but
-                      used to identify the section)
                   - name: component
                     widget: hidden
                     required: true
@@ -174,6 +170,15 @@ collections:
                 widget: object
                 label: Spotlights Section
                 fields:
+                  - name: title
+                    widget: string
+                    required: true
+                    label: Section Title
+                    default: Spotlights Section
+                    hint: >-
+                      The bold text displayed at the top of the section (Also
+                      used by the CMS, even if no title is displayed in the
+                      section)
                   - name: section_id
                     widget: string
                     required: true
@@ -190,14 +195,6 @@ collections:
                       - style2
                       - style3
                       - style4
-                  - name: identifier
-                    widget: string
-                    required: true
-                    label: Identifier
-                    default: spotlights
-                    hint: >-
-                      The name of the section (not displayed on the page but
-                      used to identify the section)
                   - name: component
                     widget: hidden
                     required: true
@@ -211,7 +208,11 @@ collections:
                     widget: string
                     required: true
                     label: Section Title
-                    hint: The bold text displayed at the top of the section
+                    default: Features Section
+                    hint: >-
+                      The bold text displayed at the top of the section (Also
+                      used by the CMS, even if no title is displayed in the
+                      section)
                   - name: subtitle
                     widget: markdown
                     required: false
@@ -281,14 +282,6 @@ collections:
                         label: Is Primary
                         default: false
                         hint: Gives the button a primary color scheme
-                  - name: identifier
-                    widget: string
-                    required: true
-                    label: Identifier
-                    default: features
-                    hint: >-
-                      The name of the section (not displayed on the page but
-                      used to identify the section)
                   - name: component
                     widget: hidden
                     required: true
@@ -302,7 +295,11 @@ collections:
                     widget: string
                     required: true
                     label: Section Title
-                    hint: The bold text displayed at the top of the section
+                    default: Contact Section
+                    hint: >-
+                      The bold text displayed at the top of the section (Also
+                      used by the CMS, even if no title is displayed in the
+                      section)
                   - name: text
                     widget: markdown
                     required: false
@@ -371,14 +368,6 @@ collections:
                             widget: string
                             required: false
                             label: URL
-                  - name: identifier
-                    widget: string
-                    required: true
-                    label: Identifier
-                    default: contact
-                    hint: >-
-                      The name of the section (not displayed on the page but
-                      used to identify the section)
                   - name: component
                     widget: hidden
                     required: true

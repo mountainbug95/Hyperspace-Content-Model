@@ -22,14 +22,13 @@ sections:
         url: '#one'
         is_scrolly: true
         is_primary: false
-    identifier: intro
     component: intro.html
-    template: intro
-  - section_id: one
+    type: intro
+  - title: Spotlights Section
+    section_id: one
     background_style: style2
-    identifier: spotlights
     component: spotlights.html
-    template: spotlights
+    type: spotlights
   - title: What we do
     subtitle: >-
       Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis
@@ -74,9 +73,8 @@ sections:
         url: generic.md
         is_scrolly: false
         is_primary: false
-    identifier: features
     component: features.html
-    template: features
+    type: features
   - title: Get in touch
     text: >-
       Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis
@@ -114,9 +112,8 @@ sections:
         - title: LinkedIn
           icon: fa-linkedin
           url: '#'
-    identifier: contact
     component: contact.html
-    template: contact
+    type: contact
 menus:
   main:
     title: Home
