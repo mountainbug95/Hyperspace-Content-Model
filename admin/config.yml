@@ -59,6 +59,7 @@ collections:
           - name: palettes
             widget: hidden
             required: false
+            label: Palettes
   - name: home
     label: Home
     files:
@@ -97,7 +98,7 @@ collections:
             required: false
             label: Sections
             hint: Home sections
-            widgets:
+            types:
               - name: intro
                 widget: object
                 label: Intro Section
@@ -167,6 +168,7 @@ collections:
                   - name: component
                     widget: hidden
                     required: true
+                    label: Section Component
                     default: intro.html
               - name: spotlights
                 widget: object
@@ -199,6 +201,7 @@ collections:
                   - name: component
                     widget: hidden
                     required: true
+                    label: Section Component
                     default: spotlights.html
               - name: features
                 widget: object
@@ -289,6 +292,7 @@ collections:
                   - name: component
                     widget: hidden
                     required: true
+                    label: Section Component
                     default: features.html
               - name: contact
                 widget: object
@@ -378,6 +382,7 @@ collections:
                   - name: component
                     widget: hidden
                     required: true
+                    label: Section Component
                     default: contact.html
           - name: layout
             widget: hidden
